@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <header>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+        <i class="fas fa-bars active"></i>
+        <i class="fas fa-times"></i>
+        <ul class="menu_mb">
+          <li class="listItem"><p>Product</p><i class="fas fa-chevron-down"></i>    
+              <ul class="submenu">
+                <li>Overview</li>
+                <li>Pricing</li>
+                <li>Marketplace</li>
+                <li>Features</li>
+                <li>Integrations</li>
+              </ul>
+          </li>
+          <li class="listItem"><p>Company</p><i class="fas fa-chevron-down"></i>
+            
+              <ul class="submenu">
+               <li>About</li>
+               <li>Team</li>
+               <li>Blog</li>
+               <li>Careers</li>
+              </ul>
+          </li>
+          <li class="listItem"><p>Connect</p><i class="fas fa-chevron-down"></i>
+              <ul class="submenu">
+               <li>Contact</li>
+               <li>Newsletter</li>
+               <li>LinkedIn</li>
+              </ul>
+          </li>
+          <hr style="width: 100%; background: #585757;">
+          <div class="Login">
+            <button>Login</button>
+            <button>Sign Up </button>
+          </div>
+        </ul>
+        <nav>
+          <ul>
+            <li><p>Product</p><i class="fas fa-chevron-down"></i>
+              <i class="fas fa-chevron-up"></i>
+              <div class="menu">
+                <ul>
+                  <li>Overview</li>
+                  <li>Pricing</li>
+                  <li>Marketplace</li>
+                  <li>Features</li>
+                  <li>Integrations</li>
+                </ul>
+              </div>
+            </li>
+            <li><p>Company</p><i class="fas fa-chevron-down"></i>
+              <i class="fas fa-chevron-up"></i>
+              <div class="menu">
+                <ul>
+                 <li>About</li>
+                 <li>Team</li>
+                 <li>Blog</li>
+                 <li>Careers</li>
+                </ul>
+              </div></li>
+            <li><p>Connect</p><i class="fas fa-chevron-down"></i>
+              <i class="fas fa-chevron-up"></i>
+              <div class="menu">
+                <ul>
+                 <li>Contact</li>
+                 <li>Newsletter</li>
+                 <li>LinkIn</li>
+                </ul>
+              </div></li>
+          </ul>
+          <div class="btn">
+            <button>Login</button>
+            <button>Sign Up</button>
+          </div>
+        </nav>
+      </div>
+      <div class="content">
+        <p>A modern publishing platform</p>
+        <p>Grow your audience and build your online brand</p>
+        <div class="button">
+          <button>Start for Free</button>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <p>Designed for the future</p>
+          <div class="information">
+            <p class="title">Introducing an extensible editor</p>
+            <p class="description">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.</p>
+            <p class="title">Robust content management</p>
+            <p class="description">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+          </div>
+      </section>
+      <section>
+        <div class="information">
+          <p class="title">State of the Art Infrastructure</p>
+          <p class="description">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+      </section>
+      <section>
+        <div class="information">
+          <p class="title">Free, open, simple</p>
+          <p class="description">Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+          <p class="title">Powerful tooling</p>
+          <p class="description">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+            capable of producing even the most complicated sites.</p>
+          </div>
+      </section>
+    </main>
+    <footer>
+      <p>Blogr</p>
+      <div class="content">
+        <p class="title">Product</p>
+        <ul>
+          <li>Overview</li>
+          <li>Pricing</li>
+          <li>Marketplace</li>
+          <li>Features</li>
+          <li>Integrations</li>
+        </ul>
+      </div>
+      <div class="content">
+        <p class="title">Company</p>
+        <ul>
+          <li>About</li>
+          <li>Team</li>
+          <li>Blog</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div class="content">
+        <p class="title">Connect</p>
+        <ul>
+          <li>Contact</li>
+          <li>Newsletter</li>
+          <li>LinkedIn</li>
+        </ul>
+      </div>
+    </footer>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+<script src="./js.js"></script>
+</html>
